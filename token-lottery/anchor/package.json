@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@solana/spl-token": "^0.4.13",
+    "@switchboard-xyz/on-demand": "^2.13.3"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "ts-mocha": "^10.0.0",
+    "mocha": "^10.0.0"
+  }
+}
