@@ -9,7 +9,7 @@ crate-type = ["cdylib", "lib"]
 name = "tokenlottery"
 
 [features]
-default = ["custom-panic"]
+default = []
 cpi = ["no-entrypoint"]
 no-entrypoint = []
 no-idl = []

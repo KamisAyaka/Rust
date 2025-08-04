@@ -1,12 +1,12 @@
 #![allow(unexpected_cfgs)]
 
-use crate::accounts_struct::*;
 use anchor_lang::prelude::*;
+use instructions::*;
 
 declare_id!("38eCiZu5v6EjeZyn575E9uGZEqUstrV6qVvemnpeq3tp");
 
-pub mod accounts_struct;
 pub mod constants;
+pub mod error;
 pub mod instructions;
 pub mod state;
 
